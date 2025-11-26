@@ -1,0 +1,15 @@
+{
+  "log_interval_seconds": 5,
+  "csv_log_path": "metrics_log.csv",
+  "alert_log_path": "alerts.log",
+  "thresholds": {
+    "cpu_percent": 80,
+    "memory_percent": 80,
+    "disk_percent": 95,
+    "net_bytes_per_sec": 10000000
+  },
+  "tui": {
+    "refresh_interval": 1,
+    "top_process_count": 5
+  }
+}

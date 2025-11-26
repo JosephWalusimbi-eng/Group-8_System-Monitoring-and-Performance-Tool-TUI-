@@ -1,0 +1,5 @@
+psutil
+windows-curses
+pyyaml
+matplotlib
+pandas
